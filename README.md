@@ -19,11 +19,11 @@ to:
 Climate Data Scientist
 
 Key Contributions
-- ** Refactored and integrated 14 manually executed scripts** into a structured, object-oriented Python pipeline
-- ** Automated** climate data processing based on client asset locations (latitude and longitude).
-- ** Developed** workflows to extract and process ERA5 historical data and IPCC climate projections for individual assets.
-- ** Built an API** to provide climate risk results programmatically.
-- ** Developed an interactive Streamlit application** for climate risk visualization and analysis.
+* ** Refactored and integrated 14 manually executed scripts** into a structured, object-oriented Python pipeline
+* ** Automated** climate data processing based on client asset locations (latitude and longitude).
+* ** Developed** workflows to extract and process ERA5 historical data and IPCC climate projections for individual assets.
+* ** Built an API** to provide climate risk results programmatically.
+* ** Developed an interactive Streamlit application** for climate risk visualization and analysis.
 
 ## Data 
 
@@ -61,7 +61,9 @@ Client Assets
           ▼
  Maps / Risk Matrices /
  Asset-level Results
-  
+
+![Climate Risk Application](Desenho sem título (3).png)
+
 ## Repository Disclaimer
 
 This repository serves to document my professional experience and highlight my contributions to the project without disclosing proprietary solutions. To respect confidentiality, all implementation details, company-owned source code, credentials, internal infrastructure, and sensitive data have been strictly omitted.
