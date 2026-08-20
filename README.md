@@ -62,7 +62,7 @@ Client Assets
  Maps / Risk Matrices /
  Asset-level Results
 
-![Climate Risk Application](Desenho sem título (3).png)
+![Climate Risk Application]([Desenho sem título (3).png](https://github.com/thamirisbrandao/climate-index-pipeline/blob/main/Desenho%20sem%20t%C3%ADtulo%20(2).png))
 
 ## Repository Disclaimer
 
