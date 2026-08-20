@@ -71,13 +71,11 @@ I developed an interactive web application to make the climate risk results acce
 ### Interactive Risk Map
 
 The map displays the climate risk level for each asset based on its geographic location and the selected scenario and year.
-
 ![Climate Risk Application](index.png)
 
 ### Climate Risk Matrix
 
 The application also provides a temporal risk matrix, allowing users to visualize how the risk level evolves across assets and future years.
-
 ![Climate Risk Application](matriz.png)
 
 ## Repository Disclaimer
