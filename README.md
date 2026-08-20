@@ -1,2 +1,2 @@
 # climate-index-pipeline
-From manually executed meteorological scripts to an automated location-based climate index application.
+From Manual Weather Scripts to an Automated Climate Index App
