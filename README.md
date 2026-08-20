@@ -19,19 +19,20 @@ to:
 Climate Data Scientist
 
 Key Contributions
-* ** Refactored and integrated 14 manually executed scripts** into a structured, object-oriented Python pipeline
-* ** Automated** climate data processing based on client asset locations (latitude and longitude).
-* ** Developed** workflows to extract and process ERA5 historical data and IPCC climate projections for individual assets.
-* ** Built an API** to provide climate risk results programmatically.
-* ** Developed an interactive Streamlit application** for climate risk visualization and analysis.
+* **Refactored and integrated 14 manually executed scripts** into a structured, object-oriented Python pipeline
+* **Automated** climate data processing based on client asset locations (latitude and longitude).
+* **Developed** workflows to extract and process ERA5 historical data and IPCC climate projections for individual assets.
+* **Built an API** to provide climate risk results programmatically.
+* **Developed an interactive Streamlit application** for climate risk visualization and analysis.
 
 ## Data 
 
 * ERA5 reanalysis 
 * IPCC projections
+  
+## Solution Architecture
 
-## Methodology
-
+```text
 Client Assets
 (CSV + Lat/Lon)
        │
@@ -61,8 +62,23 @@ Client Assets
           ▼
  Maps / Risk Matrices /
  Asset-level Results
+```
 
-![Climate Risk Application]([Desenho sem título (3).png](https://github.com/thamirisbrandao/climate-index-pipeline/blob/main/Desenho%20sem%20t%C3%ADtulo%20(2).png))
+## Climate Risk Web Application
+
+I developed an interactive web application to make the climate risk results accessible to end users. Users could select the climate scenario, risk type, assets, and analysis period and explore the results through interactive visualizations.
+
+### Interactive Risk Map
+
+The map displays the climate risk level for each asset based on its geographic location and the selected scenario and year.
+
+![Climate Risk Application](index.png)
+
+### Climate Risk Matrix
+
+The application also provides a temporal risk matrix, allowing users to visualize how the risk level evolves across assets and future years.
+
+![Climate Risk Application](matriz.png)
 
 ## Repository Disclaimer
 
